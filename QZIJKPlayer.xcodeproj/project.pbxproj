@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23C9D75C21AA776F005699F2 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C9D75B21AA776F005699F2 /* NavigationController.swift */; };
+		23C9D76321ABF471005699F2 /* QZIJKPlayerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C9D76221ABF471005699F2 /* QZIJKPlayerPresenter.swift */; };
+		23C9D76521ABF526005699F2 /* QZIJKPlayerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23C9D76421ABF526005699F2 /* QZIJKPlayerInterface.swift */; };
+		FC2C866721AC53EA0034B348 /* QZPlayerResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FC2C866621AC53EA0034B348 /* QZPlayerResource.bundle */; };
+		FC2C866921AC55030034B348 /* QZPlayerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C866821AC55030034B348 /* QZPlayerResource.swift */; };
+		FC2C866B21AC6D860034B348 /* QZSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2C866A21AC6D860034B348 /* QZSlider.swift */; };
+		FC93E14721A471D500F2691F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC93E14621A471D500F2691F /* AppDelegate.swift */; };
+		FC93E14921A471D500F2691F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC93E14821A471D500F2691F /* ViewController.swift */; };
+		FC93E14C21A471D500F2691F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC93E14A21A471D500F2691F /* Main.storyboard */; };
+		FC93E14E21A471D600F2691F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC93E14D21A471D600F2691F /* Assets.xcassets */; };
+		FC93E15121A471D600F2691F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC93E14F21A471D600F2691F /* LaunchScreen.storyboard */; };
+		FC93E15C21A471D700F2691F /* QZIJKPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC93E15B21A471D700F2691F /* QZIJKPlayerTests.swift */; };
+		FC93E16721A471D700F2691F /* QZIJKPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC93E16621A471D700F2691F /* QZIJKPlayerUITests.swift */; };
+		FC93E17621A4724400F2691F /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC93E17521A4724400F2691F /* IJKMediaFramework.framework */; };
+		FC93E17B21A47B7D00F2691F /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC93E17A21A47B7D00F2691F /* MediaPlayer.framework */; };
+		FC93E17D21A47B8B00F2691F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC93E17C21A47B8B00F2691F /* MobileCoreServices.framework */; };
+		FC93E17F21A47B9400F2691F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC93E17E21A47B9400F2691F /* OpenGLES.framework */; };
+		FC93E18121A47B9B00F2691F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC93E18021A47B9B00F2691F /* QuartzCore.framework */; };
+		FC93E18321A47BA500F2691F /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC93E18221A47BA500F2691F /* VideoToolbox.framework */; };
+		FC93E18521A47BB300F2691F /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC93E18421A47BB300F2691F /* libbz2.tbd */; };
+		FC93E18721A47BBE00F2691F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC93E18621A47BBE00F2691F /* libz.tbd */; };
+		FC93E18921A47BCA00F2691F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC93E18821A47BCA00F2691F /* AudioToolbox.framework */; };
+		FC93E18B21A47BD100F2691F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC93E18A21A47BD100F2691F /* AVFoundation.framework */; };
+		FC93E18D21A47BDA00F2691F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC93E18C21A47BDA00F2691F /* CoreGraphics.framework */; };
+		FC93E18F21A47BE200F2691F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC93E18E21A47BE200F2691F /* CoreVideo.framework */; };
+		FC93E19121A47BEE00F2691F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC93E19021A47BED00F2691F /* CoreMedia.framework */; };
+		FC93E19321A47D0B00F2691F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FC93E19221A47D0B00F2691F /* libc++.tbd */; };
+		FC93E19621A47F3E00F2691F /* QZIJKPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC93E19421A47F3E00F2691F /* QZIJKPlayerViewController.swift */; };
+		FC93E19721A47F3E00F2691F /* QZIJKPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC93E19521A47F3E00F2691F /* QZIJKPlayerViewController.xib */; };
+		FCDA6C6221A9A86100891AD6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCDA6C6121A9A86100891AD6 /* TableViewController.swift */; };
+		FCFB8FB821AD8C7E004C38CE /* QZIJKPlayerPlayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB8FB721AD8C7E004C38CE /* QZIJKPlayerPlayModel.swift */; };
+		FCFB8FBB21AD96C7004C38CE /* QZIJKPlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB8FB921AD96C7004C38CE /* QZIJKPlayerTableViewCell.swift */; };
+		FCFB8FBC21AD96C7004C38CE /* QZIJKPlayerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCFB8FBA21AD96C7004C38CE /* QZIJKPlayerTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC93E15821A471D600F2691F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC93E13B21A471D500F2691F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC93E14221A471D500F2691F;
+			remoteInfo = QZIJKPlayer;
+		};
+		FC93E16321A471D700F2691F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC93E13B21A471D500F2691F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC93E14221A471D500F2691F;
+			remoteInfo = QZIJKPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23C9D75B21AA776F005699F2 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		23C9D76221ABF471005699F2 /* QZIJKPlayerPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QZIJKPlayerPresenter.swift; sourceTree = "<group>"; };
+		23C9D76421ABF526005699F2 /* QZIJKPlayerInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QZIJKPlayerInterface.swift; sourceTree = "<group>"; };
+		FC2C866621AC53EA0034B348 /* QZPlayerResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QZPlayerResource.bundle; sourceTree = "<group>"; };
+		FC2C866821AC55030034B348 /* QZPlayerResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QZPlayerResource.swift; sourceTree = "<group>"; };
+		FC2C866A21AC6D860034B348 /* QZSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QZSlider.swift; sourceTree = "<group>"; };
+		FC93E14321A471D500F2691F /* QZIJKPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QZIJKPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC93E14621A471D500F2691F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC93E14821A471D500F2691F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC93E14B21A471D500F2691F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC93E14D21A471D600F2691F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC93E15021A471D600F2691F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC93E15221A471D600F2691F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC93E15721A471D600F2691F /* QZIJKPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QZIJKPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC93E15B21A471D700F2691F /* QZIJKPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QZIJKPlayerTests.swift; sourceTree = "<group>"; };
+		FC93E15D21A471D700F2691F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC93E16221A471D700F2691F /* QZIJKPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QZIJKPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC93E16621A471D700F2691F /* QZIJKPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QZIJKPlayerUITests.swift; sourceTree = "<group>"; };
+		FC93E16821A471D700F2691F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC93E17521A4724400F2691F /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		FC93E17A21A47B7D00F2691F /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FC93E17C21A47B8B00F2691F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FC93E17E21A47B9400F2691F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		FC93E18021A47B9B00F2691F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FC93E18221A47BA500F2691F /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		FC93E18421A47BB300F2691F /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		FC93E18621A47BBE00F2691F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		FC93E18821A47BCA00F2691F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FC93E18A21A47BD100F2691F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FC93E18C21A47BDA00F2691F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC93E18E21A47BE200F2691F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		FC93E19021A47BED00F2691F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		FC93E19221A47D0B00F2691F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FC93E19421A47F3E00F2691F /* QZIJKPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QZIJKPlayerViewController.swift; sourceTree = "<group>"; };
+		FC93E19521A47F3E00F2691F /* QZIJKPlayerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QZIJKPlayerViewController.xib; sourceTree = "<group>"; };
+		FCDA6C6121A9A86100891AD6 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		FCFB8FB721AD8C7E004C38CE /* QZIJKPlayerPlayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QZIJKPlayerPlayModel.swift; sourceTree = "<group>"; };
+		FCFB8FB921AD96C7004C38CE /* QZIJKPlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QZIJKPlayerTableViewCell.swift; sourceTree = "<group>"; };
+		FCFB8FBA21AD96C7004C38CE /* QZIJKPlayerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QZIJKPlayerTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC93E14021A471D500F2691F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC93E19321A47D0B00F2691F /* libc++.tbd in Frameworks */,
+				FC93E18F21A47BE200F2691F /* CoreVideo.framework in Frameworks */,
+				FC93E19121A47BEE00F2691F /* CoreMedia.framework in Frameworks */,
+				FC93E18D21A47BDA00F2691F /* CoreGraphics.framework in Frameworks */,
+				FC93E18B21A47BD100F2691F /* AVFoundation.framework in Frameworks */,
+				FC93E18921A47BCA00F2691F /* AudioToolbox.framework in Frameworks */,
+				FC93E18721A47BBE00F2691F /* libz.tbd in Frameworks */,
+				FC93E18521A47BB300F2691F /* libbz2.tbd in Frameworks */,
+				FC93E18321A47BA500F2691F /* VideoToolbox.framework in Frameworks */,
+				FC93E18121A47B9B00F2691F /* QuartzCore.framework in Frameworks */,
+				FC93E17F21A47B9400F2691F /* OpenGLES.framework in Frameworks */,
+				FC93E17D21A47B8B00F2691F /* MobileCoreServices.framework in Frameworks */,
+				FC93E17B21A47B7D00F2691F /* MediaPlayer.framework in Frameworks */,
+				FC93E17621A4724400F2691F /* IJKMediaFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC93E15421A471D600F2691F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC93E15F21A471D700F2691F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC93E13A21A471D500F2691F = {
+			isa = PBXGroup;
+			children = (
+				FC93E14521A471D500F2691F /* QZIJKPlayer */,
+				FC93E15A21A471D600F2691F /* QZIJKPlayerTests */,
+				FC93E16521A471D700F2691F /* QZIJKPlayerUITests */,
+				FC93E14421A471D500F2691F /* Products */,
+				FC93E17921A47B7D00F2691F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC93E14421A471D500F2691F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC93E14321A471D500F2691F /* QZIJKPlayer.app */,
+				FC93E15721A471D600F2691F /* QZIJKPlayerTests.xctest */,
+				FC93E16221A471D700F2691F /* QZIJKPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC93E14521A471D500F2691F /* QZIJKPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				FC93E17421A4724400F2691F /* QZIJKPlayer */,
+				FC93E14621A471D500F2691F /* AppDelegate.swift */,
+				FC93E14821A471D500F2691F /* ViewController.swift */,
+				23C9D75B21AA776F005699F2 /* NavigationController.swift */,
+				FCDA6C6121A9A86100891AD6 /* TableViewController.swift */,
+				FC93E14A21A471D500F2691F /* Main.storyboard */,
+				FC93E14D21A471D600F2691F /* Assets.xcassets */,
+				FC93E14F21A471D600F2691F /* LaunchScreen.storyboard */,
+				FC93E15221A471D600F2691F /* Info.plist */,
+			);
+			path = QZIJKPlayer;
+			sourceTree = "<group>";
+		};
+		FC93E15A21A471D600F2691F /* QZIJKPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC93E15B21A471D700F2691F /* QZIJKPlayerTests.swift */,
+				FC93E15D21A471D700F2691F /* Info.plist */,
+			);
+			path = QZIJKPlayerTests;
+			sourceTree = "<group>";
+		};
+		FC93E16521A471D700F2691F /* QZIJKPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC93E16621A471D700F2691F /* QZIJKPlayerUITests.swift */,
+				FC93E16821A471D700F2691F /* Info.plist */,
+			);
+			path = QZIJKPlayerUITests;
+			sourceTree = "<group>";
+		};
+		FC93E17421A4724400F2691F /* QZIJKPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				FC93E17521A4724400F2691F /* IJKMediaFramework.framework */,
+				FC93E19521A47F3E00F2691F /* QZIJKPlayerViewController.xib */,
+				FC93E19421A47F3E00F2691F /* QZIJKPlayerViewController.swift */,
+				23C9D76221ABF471005699F2 /* QZIJKPlayerPresenter.swift */,
+				23C9D76421ABF526005699F2 /* QZIJKPlayerInterface.swift */,
+				FCFB8FB721AD8C7E004C38CE /* QZIJKPlayerPlayModel.swift */,
+				FC2C866A21AC6D860034B348 /* QZSlider.swift */,
+				FCFB8FB921AD96C7004C38CE /* QZIJKPlayerTableViewCell.swift */,
+				FCFB8FBA21AD96C7004C38CE /* QZIJKPlayerTableViewCell.xib */,
+				FC2C866821AC55030034B348 /* QZPlayerResource.swift */,
+				FC2C866621AC53EA0034B348 /* QZPlayerResource.bundle */,
+			);
+			path = QZIJKPlayer;
+			sourceTree = "<group>";
+		};
+		FC93E17921A47B7D00F2691F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC93E19221A47D0B00F2691F /* libc++.tbd */,
+				FC93E19021A47BED00F2691F /* CoreMedia.framework */,
+				FC93E18E21A47BE200F2691F /* CoreVideo.framework */,
+				FC93E18C21A47BDA00F2691F /* CoreGraphics.framework */,
+				FC93E18A21A47BD100F2691F /* AVFoundation.framework */,
+				FC93E18821A47BCA00F2691F /* AudioToolbox.framework */,
+				FC93E18621A47BBE00F2691F /* libz.tbd */,
+				FC93E18421A47BB300F2691F /* libbz2.tbd */,
+				FC93E18221A47BA500F2691F /* VideoToolbox.framework */,
+				FC93E18021A47B9B00F2691F /* QuartzCore.framework */,
+				FC93E17E21A47B9400F2691F /* OpenGLES.framework */,
+				FC93E17C21A47B8B00F2691F /* MobileCoreServices.framework */,
+				FC93E17A21A47B7D00F2691F /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC93E14221A471D500F2691F /* QZIJKPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC93E16B21A471D700F2691F /* Build configuration list for PBXNativeTarget "QZIJKPlayer" */;
+			buildPhases = (
+				FC93E13F21A471D500F2691F /* Sources */,
+				FC93E14021A471D500F2691F /* Frameworks */,
+				FC93E14121A471D500F2691F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QZIJKPlayer;
+			productName = QZIJKPlayer;
+			productReference = FC93E14321A471D500F2691F /* QZIJKPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC93E15621A471D600F2691F /* QZIJKPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC93E16E21A471D700F2691F /* Build configuration list for PBXNativeTarget "QZIJKPlayerTests" */;
+			buildPhases = (
+				FC93E15321A471D600F2691F /* Sources */,
+				FC93E15421A471D600F2691F /* Frameworks */,
+				FC93E15521A471D600F2691F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC93E15921A471D600F2691F /* PBXTargetDependency */,
+			);
+			name = QZIJKPlayerTests;
+			productName = QZIJKPlayerTests;
+			productReference = FC93E15721A471D600F2691F /* QZIJKPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC93E16121A471D700F2691F /* QZIJKPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC93E17121A471D700F2691F /* Build configuration list for PBXNativeTarget "QZIJKPlayerUITests" */;
+			buildPhases = (
+				FC93E15E21A471D700F2691F /* Sources */,
+				FC93E15F21A471D700F2691F /* Frameworks */,
+				FC93E16021A471D700F2691F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC93E16421A471D700F2691F /* PBXTargetDependency */,
+			);
+			name = QZIJKPlayerUITests;
+			productName = QZIJKPlayerUITests;
+			productReference = FC93E16221A471D700F2691F /* QZIJKPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC93E13B21A471D500F2691F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "曲终叶落";
+				TargetAttributes = {
+					FC93E14221A471D500F2691F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FC93E15621A471D600F2691F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FC93E14221A471D500F2691F;
+					};
+					FC93E16121A471D700F2691F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FC93E14221A471D500F2691F;
+					};
+				};
+			};
+			buildConfigurationList = FC93E13E21A471D500F2691F /* Build configuration list for PBXProject "QZIJKPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC93E13A21A471D500F2691F;
+			productRefGroup = FC93E14421A471D500F2691F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC93E14221A471D500F2691F /* QZIJKPlayer */,
+				FC93E15621A471D600F2691F /* QZIJKPlayerTests */,
+				FC93E16121A471D700F2691F /* QZIJKPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC93E14121A471D500F2691F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFB8FBC21AD96C7004C38CE /* QZIJKPlayerTableViewCell.xib in Resources */,
+				FC93E15121A471D600F2691F /* LaunchScreen.storyboard in Resources */,
+				FC93E14E21A471D600F2691F /* Assets.xcassets in Resources */,
+				FC93E14C21A471D500F2691F /* Main.storyboard in Resources */,
+				FC93E19721A47F3E00F2691F /* QZIJKPlayerViewController.xib in Resources */,
+				FC2C866721AC53EA0034B348 /* QZPlayerResource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC93E15521A471D600F2691F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC93E16021A471D700F2691F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC93E13F21A471D500F2691F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC93E14921A471D500F2691F /* ViewController.swift in Sources */,
+				FC2C866921AC55030034B348 /* QZPlayerResource.swift in Sources */,
+				FCFB8FB821AD8C7E004C38CE /* QZIJKPlayerPlayModel.swift in Sources */,
+				FC2C866B21AC6D860034B348 /* QZSlider.swift in Sources */,
+				FC93E14721A471D500F2691F /* AppDelegate.swift in Sources */,
+				23C9D75C21AA776F005699F2 /* NavigationController.swift in Sources */,
+				23C9D76521ABF526005699F2 /* QZIJKPlayerInterface.swift in Sources */,
+				FC93E19621A47F3E00F2691F /* QZIJKPlayerViewController.swift in Sources */,
+				23C9D76321ABF471005699F2 /* QZIJKPlayerPresenter.swift in Sources */,
+				FCDA6C6221A9A86100891AD6 /* TableViewController.swift in Sources */,
+				FCFB8FBB21AD96C7004C38CE /* QZIJKPlayerTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC93E15321A471D600F2691F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC93E15C21A471D700F2691F /* QZIJKPlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC93E15E21A471D700F2691F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC93E16721A471D700F2691F /* QZIJKPlayerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC93E15921A471D600F2691F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC93E14221A471D500F2691F /* QZIJKPlayer */;
+			targetProxy = FC93E15821A471D600F2691F /* PBXContainerItemProxy */;
+		};
+		FC93E16421A471D700F2691F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC93E14221A471D500F2691F /* QZIJKPlayer */;
+			targetProxy = FC93E16321A471D700F2691F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC93E14A21A471D500F2691F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC93E14B21A471D500F2691F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC93E14F21A471D600F2691F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC93E15021A471D600F2691F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC93E16921A471D700F2691F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC93E16A21A471D700F2691F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC93E16C21A471D700F2691F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSV274MYFS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QZIJKPlayer/QZIJKPlayer",
+				);
+				INFOPLIST_FILE = QZIJKPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quzhongyeluo.QZIJKPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC93E16D21A471D700F2691F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSV274MYFS;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/QZIJKPlayer/QZIJKPlayer",
+				);
+				INFOPLIST_FILE = QZIJKPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quzhongyeluo.QZIJKPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC93E16F21A471D700F2691F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSV274MYFS;
+				INFOPLIST_FILE = QZIJKPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quzhongyeluo.QZIJKPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QZIJKPlayer.app/QZIJKPlayer";
+			};
+			name = Debug;
+		};
+		FC93E17021A471D700F2691F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSV274MYFS;
+				INFOPLIST_FILE = QZIJKPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quzhongyeluo.QZIJKPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QZIJKPlayer.app/QZIJKPlayer";
+			};
+			name = Release;
+		};
+		FC93E17221A471D700F2691F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSV274MYFS;
+				INFOPLIST_FILE = QZIJKPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quzhongyeluo.QZIJKPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QZIJKPlayer;
+			};
+			name = Debug;
+		};
+		FC93E17321A471D700F2691F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZSV274MYFS;
+				INFOPLIST_FILE = QZIJKPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.quzhongyeluo.QZIJKPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QZIJKPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC93E13E21A471D500F2691F /* Build configuration list for PBXProject "QZIJKPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC93E16921A471D700F2691F /* Debug */,
+				FC93E16A21A471D700F2691F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC93E16B21A471D700F2691F /* Build configuration list for PBXNativeTarget "QZIJKPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC93E16C21A471D700F2691F /* Debug */,
+				FC93E16D21A471D700F2691F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC93E16E21A471D700F2691F /* Build configuration list for PBXNativeTarget "QZIJKPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC93E16F21A471D700F2691F /* Debug */,
+				FC93E17021A471D700F2691F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC93E17121A471D700F2691F /* Build configuration list for PBXNativeTarget "QZIJKPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC93E17221A471D700F2691F /* Debug */,
+				FC93E17321A471D700F2691F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC93E13B21A471D500F2691F /* Project object */;
+}
