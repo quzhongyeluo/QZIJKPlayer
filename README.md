@@ -3,5 +3,8 @@
 
 预览图：
 
-![https://github.com/quzhongyeluo/QZIJKPlayer/blob/master/IMG_6129.PNG]()
+![](https://s1.ax1x.com/2020/06/09/thb0aj.png)
 
+![](https://s1.ax1x.com/2020/06/09/thbwZQ.png)
+
+![](https://s1.ax1x.com/2020/06/09/thbaqg.png)
