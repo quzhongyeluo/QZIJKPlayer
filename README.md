@@ -3,8 +3,14 @@
 
 预览图：
 
-![](https://s1.ax1x.com/2020/06/09/thb0aj.png)
+![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gflcs4v5zdj30n01dsgpr.jpg)
 
-![](https://s1.ax1x.com/2020/06/09/thbwZQ.png)
 
-![](https://s1.ax1x.com/2020/06/09/thbaqg.png)
+
+![](https://tva1.sinaimg.cn/large/007S8ZIlgy1gflcpy1xt2j30n01dsgnm.jpg)
+
+
+
+横屏模式
+
+![https://tva1.sinaimg.cn/large/007S8ZIlgy1gflcrqszvaj31ds0n0jyo.jpg]()
